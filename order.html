@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Foodies Cart Page</title>
+        <meta name="description" content="This is the description">
+     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/style1.css">
+        <script src="js/app.js" async></script>
+    </head>
+    <body>
+    <h1 style="color:#313145; font-family:fantasy; font-size:50px; text-align:center;">Foodies</h1>
+
+<section class="menu" id="menu">
+<div class="box-container">
+  <div class="shop-item box content">
+  <img class="shop-item-image image" src="img/menu-1.jpg" alt="">
+
+  <span class="shop-item-title">  <h4>Delicious Pizza's</h4></span>
+  
+
+  <div class="shop-item-details">
+  <span class="shop-item-price">$20.00</span>
+  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+
+  </div>
+</div>
+<div class="shop-item box content">
+<img class="shop-item-image image" src="img/menu-2.jpg" alt="">
+
+<span class="shop-item-title"> <h4>Burger</h4></span>
+
+<div class="shop-item-details">
+<span class="shop-item-price">$30.00</span>
+<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+
+</div>
+</div>
+
+<div class="shop-item box content">
+<img class="shop-item-image image" src="img/menu-3.jpg" alt="">
+
+<span class="shop-item-title"> <h4>Hakka Noodles</h4></span>
+
+<div class="shop-item-details">
+<span class="shop-item-price">$25.00</span>
+<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+</div>
+</div>
+
+</div>
+
+<!--2nd row-->
+
+<div class="box-container">
+  <div class="shop-item box content">
+  <img class="shop-item-image image" src="img/menu-7.jpg" alt="">
+
+  <span class="shop-item-title">    <h4>Fresh Drinks</h4></span>
+
+  <div class="shop-item-details">
+  <span class="shop-item-price">$10.00</span>
+  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+
+  </div>
+</div>
+<div class="shop-item box content">
+<img class="shop-item-image image" src="img/menu-8.jpg" alt="">
+
+<span class="shop-item-title">   <h4>Grill Sandwich</h4></span>
+<div class="shop-item-details">
+<span class="shop-item-price">$15.00</span>
+<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+
+</div>
+</div>
+
+<div class="shop-item box content">
+<img class="shop-item-image image" src="img/menu-9.jpg" alt="">
+
+<span class="shop-item-title">   <h4>French Fries</h4></span>
+
+<div class="shop-item-details">
+<span class="shop-item-price">$30.00</span>
+<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+</div>
+</div>
+
+</div>
+
+<!--third row-->
+
+<div class="box-container">
+  <div class="shop-item box content">
+  <img class="shop-item-image image" src="img/dish-2.png" alt="">
+
+  <span class="shop-item-title">    <h4>Momos</h4></span>
+
+  <div class="shop-item-details">
+  <span class="shop-item-price">$10.00</span>
+  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+
+  </div>
+</div>
+
+<div class="shop-item box content">
+<img class="shop-item-image image" src="img/dish-6.jpg" alt="">
+
+<span class="shop-item-title">     <h4>Fried Chicken</h4></span>
+
+<div class="shop-item-details">
+<span class="shop-item-price">$20.00</span>
+<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+
+</div>
+</div>
+
+<div class="shop-item box content">
+<img class="shop-item-image image" src="img/dish-5.png" alt="">
+
+<span class="shop-item-title">   <h4>Chocolava Cake</h4></span>
+
+<div class="shop-item-details">
+<span class="shop-item-price">$30.00</span>
+<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+</div>
+</div>
+
+</div>
+        </section>
+
+
+<!--cart-->
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button"><a href="checkout.html" >PURCHASE</a></button>
+        </section>
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>     
